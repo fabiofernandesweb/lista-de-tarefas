@@ -1,5 +1,9 @@
 @media (max-width: 568px) {
 
+    body {
+        min-height: 100vh;
+    }
+
     h1 {
         font-size: 2rem;
     }
