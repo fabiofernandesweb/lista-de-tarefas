@@ -20,7 +20,7 @@ h1 {
 
 header {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     align-items: center;
     width: 90%;
     margin: auto auto;
@@ -53,7 +53,7 @@ button.add:hover {
 
 main {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     width: 90%;
     margin: auto auto;
     /* border: 1px solid blue; */
@@ -62,7 +62,7 @@ main {
 
 .item {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     width: 100%;
